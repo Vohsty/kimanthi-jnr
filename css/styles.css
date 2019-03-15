@@ -1,0 +1,20 @@
+body {
+  background-image: url("back2.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: blue;
+  height: 300px
+}
+.title {
+  text-align: center;
+  background-color: #5DADEC;
+  background-blend-mode: overlay;
+  height: 100px;
+  font-family: fantasy;
+}
+.lens {
+float: right;
+
+}
