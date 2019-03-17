@@ -81,7 +81,7 @@ body {
 }
 .buttons {
   text-align: center;
-    background-image: url("camgif3.gif") ;
+    background-image: url("cam.gif") ;
     background-repeat: no-repeat;
     background-size: cover;
     display:block;
@@ -96,11 +96,11 @@ body {
 }
 
 .buttons:hover {
-    background-image: url("camgif3.gif");
+    background-image: url("cam2.gif");
 }
 .buttons2 {
   text-align: center;
-    background-image: url("camgif3.gif") ;
+    background-image: url("beachgif.gif") ;
     background-repeat: no-repeat;
     background-size: cover;
     display:block;
@@ -115,5 +115,24 @@ body {
 }
 
 .buttons2:hover {
-    background-image: url("camgif3.gif");
+    background-image: url("beach.gif");
+}
+.buttons3 {
+  text-align: center;
+    background-image: url("webgif.gif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: -300px;
+    left: 780px;
+    padding: 0 0 0 10px;
+    border: 0px;
+    margin: 0px;
+}
+
+.buttons3:hover {
+    background-image: url("web2.gif");
 }
