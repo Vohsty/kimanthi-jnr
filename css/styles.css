@@ -7,14 +7,16 @@ body {
 
 }
 .title-img {
+  border: 2px;
   background-image: url("vint6.jpg"),url("vint2.jpg");
-
   background-repeat: no-repeat,repeat-x;
   background-size: cover,cover;
+  position: relative;
+  top: 0px;
 
 }
 .title {
-  text-align: center;
+
   font-style: italic;
   color: #FFFDD0;
   background-color: #5DADEC;
@@ -29,8 +31,21 @@ body {
   font-family: fantasy;
 }
 .my-pic {
+  position: relative;
   top: 150px;
-  left: 900px
+  left: 880px
+}
+.h1-font {
+  font-size: 300%;
+  position: relative;
+  top: -200px;
+  left: 200px
+}
+.h4-font {
+
+  position: relative;
+  top: -190px;
+  left: 440px;
 }
 .links {
   color: white;
@@ -64,7 +79,7 @@ body {
   background:rgba(0,0,0,0.4);
   position: relative;
 }
-.buttons_position {
+.buttons {
   text-align: center;
     background-image: url("camgif3.gif") ;
     background-repeat: no-repeat;
@@ -80,6 +95,25 @@ body {
     margin: 0px;
 }
 
-.buttons_position:hover {
+.buttons:hover {
+    background-image: url("camgif3.gif");
+}
+.buttons2 {
+  text-align: center;
+    background-image: url("camgif3.gif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: -50px;
+    left: 400px;
+    padding: 0 0 0 10px;
+    border: 0px;
+    margin: 0px;
+}
+
+.buttons2:hover {
     background-image: url("camgif3.gif");
 }
