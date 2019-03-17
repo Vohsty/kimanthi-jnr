@@ -37,5 +37,15 @@ body {
   padding: 6px;
   position: relative;
   top: 50px;
-
+}
+.deeper {
+  font-size: 150%;
+  position: relative;
+  top: 60px;
+  left: 300px;
+  width: 550px;
+  border: 2px solid #C19A6B;
+  padding: 6px;
+  margin: 10px;
+  background-color: rgba(224, 224, 224, 0.4);
 }
