@@ -6,6 +6,7 @@ body {
   background-size: cover;
 }
 .phone {
+
   position: relative;
   top: 150px;
   left: 300px;
@@ -16,6 +17,7 @@ body {
   left: 245px;
 }
 .cont {
+  color: #064E40;
   font-size: 200%;
   border: 2px;
   position: relative;
