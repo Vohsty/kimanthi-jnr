@@ -1,6 +1,6 @@
 body {
   background-image: url("back4.jpg");
-  height: 1600px;
+  height: 1800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +23,6 @@ body {
 }
 .title2-img {
   background-image: url("code1.gif"),url("vint2.jpg");
-
   background-repeat: no-repeat,repeat-x;
   background-size: cover,cover;
 }
@@ -36,7 +35,12 @@ body {
   position: relative;
   top: 50px;
 }
+
+
 .deeper {
+
+  background-repeat: no-repeat,repeat-x;
+  background-size: cover,cover;
   font-size: 150%;
   position: relative;
   top: 60px;
@@ -45,7 +49,7 @@ body {
   border: 2px solid #C19A6B;
   padding: 6px;
   margin: 10px;
-  background-color: rgba(224, 224, 224, 0.4);
+  background-color: rgba(224, 224, 224, 0.5);
 }
 .skills {
   font-size: 150%;
@@ -63,3 +67,34 @@ body {
   position: absolute;
   top: 50px;
   left: 900px;
+}
+.Abuttons {
+  text-align: center;
+    background-image: url("skills.gif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: -250px;
+    left: 280px;
+    padding: 0 0 0 10px;
+    border: 0px;
+    margin: 0px;
+}
+.Abuttons2 {
+  text-align: center;
+    background-image: url("me2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    top: -1050px;
+    left: 780px;
+    padding: 0 0 0 10px;
+    border: 0px;
+    margin: 0px;
+}
